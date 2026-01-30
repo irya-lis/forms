@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="" method="post">
+    <h2>Registration</h2>
+
+    <label for="name">Name:
+        <input id="name" name="firstName" type="text" placeholder="Irya">
+    </label>
+
+    <label for="email">Email:
+        <input id="email" name="email" type="email" required placeholder="mail@example.com">
+    </label>
+
+    <label for="password">Password:
+        <input id="password" name="password" type="password" placeholder="******">
+    </label>
+
+    <label for="role">Role selection:
+        <select id="role" name="role">
+            <option value="Buyer">I'm buyer</option>
+            <option value="Seller">I'm seller</option>
+        </select>
+    </label>
+
+    <label for="agree" class="checkbox-label">
+        <input id="agree" name="agree" type="checkbox">
+        <span>I agree with the rules</span>
+    </label>
+
+    <button id="send" type="submit">Send</button>
+
+</form>
+
+</body>
+</html>
